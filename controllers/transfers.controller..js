@@ -1,6 +1,7 @@
 const Transfer = require('../models/transfers.model');
 const User = require('../models/users.model');
 
+//UPDATE  OF TRANSFERS
 const transferProcess = async (req, res) => {
   const { amount, accountNumber, senderUserId } = req.body;
 

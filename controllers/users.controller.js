@@ -17,6 +17,7 @@ const createUser = async (req, res) => {
   });
 };
 
+//IMPROVING LOGIN USER
 const loginUser = async (req, res) => {
   const { password, accountNumber } = req.body;
   const user = await User.findOne({

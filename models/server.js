@@ -5,6 +5,8 @@ const { db } = require('../database/db');
 const { userRouter } = require('../routes/user.routes');
 const { transferRouter } = require('../routes/transfer.routes');
 
+
+//THIS IS A CLASS THAT IS SERVER
 class Server {
   constructor() {
     this.app = express();
